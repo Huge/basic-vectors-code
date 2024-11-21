@@ -1,0 +1,4 @@
+{
+  "postCreateCommand": "pip install --upgrade pip && pip install sentence-transformers numpy scikit-learn",
+  "workspaceFolder": "/workspace"
+}
