@@ -71,4 +71,7 @@ if __name__ == "__main__":
         print("Please provide the path to the text file.")
         sys.exit(1)
     file_path = sys.argv[1]
-    main(file_path)
+    #main(file_path)
+    ## All those are (Embedding Dimensions, Max Tokens Average) 384, 512
+    main(file_path, model_name="avsolatorio/NoInstruct-small-Embedding-v0")#"avsolatorio/GIST-small-Embedding-v0") # or perhaps less popular  abhinand/MedEmbed-small-v0.1
+    ## jinaai/jina-embeddings-v2-small-en is 512 numbers from up to 8192 context, which seems great
